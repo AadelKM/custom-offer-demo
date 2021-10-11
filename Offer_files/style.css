@@ -1,0 +1,131 @@
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	color: #4a4a4c;
+}
+
+#logo img {
+	width: 250px;
+	height: 100px;
+}
+
+h1 {
+	font-size: 1.4em;
+	font-weight: 400;
+	margin-top: 0.67em;
+}
+
+h2 {
+	font-size: 1.2em;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 1.3em;
+	font-weight: 400;
+}
+
+p {
+	font-size: 0.875em;
+}
+
+a {
+	background: transparent;
+	text-decoration: none;
+}
+
+a:active,
+a:hover {
+	outline: 0;
+	text-decoration: underline;
+}
+
+a,
+a:hover,
+a:visited,
+.section-header h3,
+.notice span,
+#vehicleinfo ul li:before,
+.text-primary {
+	color: #0a8bbb;
+}
+
+.top-bar {
+	width: 100%;
+	height: 10px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	background-color: #0a8bbb;
+}
+
+.separator {
+	border-bottom: solid 1px #dbdddd;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	width: 100%;
+}
+
+#pdflink {
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: right;
+	height: 70px;
+}
+
+#pdflink div {
+	margin-bottom: -30px;
+	margin-right: 5px;
+}
+
+.pdf-button {
+	height: 70px;
+	width: 70px;
+	background: #0a8bbb url('pdf-icon.png') no-repeat;
+	background-size: 37px 37px;
+	background-position: 20px 16px;
+}
+
+.circle {
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.offermonth {
+	font-weight: 300;
+	font-size: 80%;
+}
+
+#vehicleinfo ul {
+	border-left: 1px solid #d4d4d4;
+}
+
+#vehicleinfo li {
+	list-style: none;
+	font-size: 0.875em;
+	font-weight: 400;
+	line-height: 200%;
+}
+
+#vehicleinfo ul li:before {
+	content: "\203A \0020 \0020";
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#vehicleinfo img {
+	/* height: 125px;
+	width: 125px; */
+	width: 180px;
+	height: auto;
+}
+
+.slide-toggle {
+	display: flex;
+	transform: scale(1.3)
+}
+

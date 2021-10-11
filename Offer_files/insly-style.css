@@ -1,0 +1,64 @@
+.opt2 table {
+	max-width: 1140px;
+	overflow: auto;
+	display: block;
+}
+.opt2 table th {
+	background-color: #0a8bbb;
+	color: #fff;
+	min-width: 90px;
+	height: 40px;
+	font-size: 0.70em;
+}
+.opt2 table thead th {
+	border: 1px solid #0a8bbb;
+}
+.opt2 table td {
+	min-width: 90px;
+	height: 40px;
+	font-size: 0.75em;
+	padding: 0;
+}
+.opt2 table .insurer {
+	font-weight: 500;
+	font-size: 0.85em;
+	padding-left: 8px;
+	background-color: #f4f4f4;
+	text-align: start;
+}
+.opt2 table td span {
+	margin-left: 5px;
+}
+.opt2 table label {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100%; /* for the latest browsers which support min-height */
+	height: auto !important; /* for newer IE versions */
+	height: 100%; /* the only height-related attribute that IE6 does not ignore  */
+}
+
+.opt2 .pricematrix-legend {
+	display: block;
+}
+
+.opt2 .legend-circle {
+	width: 15px;
+	height: 15px;
+	border: 1px solid #d4d4d4;
+}
+
+.opt2 .cheapest {
+	background-color: #f4f9bd;
+}
+.opt2 .recommended {
+	background-color: #a7e8ae;
+}
+
+.opt2 .circle {
+	border-radius: 50%;
+}
+
+.table-radio-selected {
+	font-weight: bold;
+}
